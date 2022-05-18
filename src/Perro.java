@@ -66,10 +66,10 @@ public class Perro extends Mamifero{
             ladrido = "El perro se ha tirado a moder";
         }else{
             for (int i=0; i<=this.getEstadoAnimo();i++){
-                ladrido+="Guau ";
+                ladrido= ladrido + "Guau ";
             }
         }
-        
+
         return ladrido;
     }
 
